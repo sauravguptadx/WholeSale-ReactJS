@@ -1,0 +1,72 @@
+#tableBody{
+    background-image: url(mountain.jpg);
+    background-size: cover;
+    height: 630.5px;
+    width: 100%;
+  }
+
+
+table {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+    table-layout: fixed;
+    margin-left:auto; 
+    margin-right:auto;
+    color: white;
+}
+  
+ #divtable{
+  max-height: 386px;
+  overflow-y: auto;
+ }
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+tr:nth-child(even){background-color: rgba(0, 0, 0, 0.4);}
+  
+tr:hover {background-color: rgba(0, 0, 0, 0.7);}
+  
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+#hInsert{
+    font-size: 30px;
+    border: white 1px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 580px;
+    padding-top: 10px;
+    transition: transform .2s;
+}
+
+
+#hInsert:hover {
+    transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+
+ #tableHeaderh1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 60px;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.7);
+}

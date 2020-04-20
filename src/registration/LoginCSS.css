@@ -1,0 +1,98 @@
+#loginBody{
+    background-image: url(backgroundLogin.jpg);
+    background-size: cover;
+    height: 630.5px;
+    width: 100%;
+  }
+
+#maintitle{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 450px;
+    padding: 40px;
+}
+
+#maintitle h1{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 70px;
+    text-align: justify;
+    padding: 0 0 20px;
+}
+
+#form_area{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.35);
+    width: 300px;
+    height: 450px;
+    padding: 40px;
+}
+
+
+#form_area p{
+    margin: 0;
+    padding: 0 0 0px;
+    font-weight: 20px;
+    font-size: 18px;
+    color: #ffffff;
+} 
+#form_area h2{
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#form_area input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#form_area input[type = text],
+#form_area input[type = password]{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    display: 16px;
+}
+
+#loginButton{
+    background-color: rgb(16, 20, 250);
+    border: none;
+    font-size: 25px;
+    color: whitesmoke;
+    height: 40px;
+    width: 220px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#loginButton:hover {
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+#signUpp{
+    margin: 0;
+    padding: 0 0 0px; 
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+#signUpButton{
+    margin-top: 15px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+#signUpButton:hover {
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }

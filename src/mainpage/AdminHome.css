@@ -1,0 +1,161 @@
+#mainhome{
+  background-image: url(MainPage.jpg);
+  background-size: cover;
+  height: 630.5px;
+  width: 100%;
+}
+
+.slickSlider{
+    color: orange;
+    font-size: 60px;
+    background: rgba(0, 0, 0, 0.35);
+    height: 185px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.slickSlider h1{
+  color: rgba(255, 255, 0, 0.3);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.stockTable{
+    background: rgba(0, 0, 0, 0.35);
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 110px;
+    text-align: center;
+    padding-top: 40px;
+    transition: transform .2s;
+}
+
+.stockTable:hover {
+    transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.customersTable{
+    background: rgba(0, 0, 0, 0.35);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 350px;
+    padding-top: 40px;
+    transition: transform .2s;
+}
+
+.customersTable:hover {
+    box-shadow: brown;
+    transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.buyersTable{
+    background: rgba(0, 0, 0, 0.35);
+    height: 150px;
+    width: 150px;
+    margin-top: -270px;
+    margin-left: 580px;
+    text-align: center;
+    padding-top: 40px;
+    transition: transform .2s;
+}
+
+.buyersTable:hover {
+    box-shadow: brown;
+    transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+.ordersTable{
+    background: rgba(0, 0, 0, 0.35);
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin-top: -30px;
+    margin-left: 810px;
+    text-align: center;
+    padding-top: 40px;
+    transition: transform .2s;
+}
+
+.ordersTable:hover {
+    transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.boughtTable{
+    background: rgba(0, 0, 0, 0.35);
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin-top: -270px;
+    margin-left: 1050px;
+    text-align: center;
+    padding-top: 40px;
+    transition: transform .2s;
+}
+
+.boughtTable:hover {
+    transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.tasks{
+    font-size: 40px;
+    color: yellow;
+    background-color: black;
+    height: 100px;
+    width: 150px;
+    position: relative;
+    margin-top: -80px;
+    margin-left: 1130px;
+    text-align: center;
+    padding-top: 40px;
+    transition: transform .2s;
+}
+
+.tasks:hover {
+    box-shadow: brown;
+    transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.placeOrder{
+    background: rgba(0, 0, 0, 0.35);
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+    padding-top: 50px;
+    transition: transform .2s;
+    
+}
+
+.placeOrder h2{
+  font-size: 60px;
+}
+
+.placeOrder:hover {
+    transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.myOrder{
+    background: rgba(0, 0, 0, 0.35);
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin-top: -250px;
+    margin-left: 770px;
+    padding-top: 40px;
+    transition: transform .2s;
+}
+
+.myOrder h2{
+  font-size: 60px;
+}
+.myOrder:hover {
+    box-shadow: brown;
+    transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
